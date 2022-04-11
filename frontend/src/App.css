@@ -1,0 +1,145 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.search_div {
+  margin: 10px auto;
+  height: 50px;
+  width: 30%;
+  /* border: 1px solid black; */
+}
+.search_div input {
+  margin: 2px auto;
+  height: 40%;
+  width: 50%;
+}
+.search_div button {
+  margin: 2px auto auto 5px;
+
+  height: 52%;
+  width: 20%;
+}
+.main_dilip {
+  display: grid;
+  grid-template-columns: repeat(4, 0.7fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 10px;
+  /* border: 1px solid black; */
+}
+.dilip {
+  height: 80%;
+  width: 80%;
+  /* border: 1px solid black; */
+}
+.dilip img {
+  padding: 10px 20px;
+  /* border: 1px solid black; */
+  height: 50%;
+  width: 70%;
+}
+
+
+
+/* ------------bookdetails-------------          */
+.bookDetalis{
+  margin: 5px auto;
+  height:30%;
+  width: 20%;
+  /* border: 1px solid black; */
+}
+.bookDetalis img{
+  height:50%;
+  width: 45%;
+}
+.bookDetalis .text_div{
+  margin: 5px auto;
+  height:50px;
+  width: 80%;
+  /* border: 1px solid black; */
+}
+.bookDetalis span{
+  display: block;
+  font-size:15px;
+}
+
+/* -----form ------
+ */
+ .oderer_data {
+  height: 50vh;
+  width: 100%;
+  /* border: 1px solid black; */
+  background-color: rgb(255, 255, 255);
+}
+.oderer_Form {
+  margin: 10px auto;
+  height: 95%;
+  width: 30%;
+  /* border: 1px solid black; */
+  background-color: rgb(245, 243, 243);
+}
+label {
+  margin: 2rem;
+  font-family: cursive;
+  font-size: 20px;
+  line-height: 10px;
+}
+input {
+  margin-top: 10px;
+  height: 5%;
+  width: 30%;
+  padding: 5px 10px;
+}
+textarea {
+  flex-wrap: spin;
+  margin-top: 10px;
+  height: 5%;
+  width: 30%;
+  padding: 8px 16px;
+}
+
+
+
+
+
+
+
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
